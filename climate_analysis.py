@@ -15,6 +15,12 @@ def FahrToCelsius(fahr):
     celsius = ((fahr - 32) * (5/9)) 
     return celsius
 def FahrToKelvin(fahr):
+    """Converts farenhei to kelvin
+    args:
+        fahr (float)
+    returs:
+        float - kelvin
+    """
     kelvin = FahrToCelsius(fahr) + 273.15
     return kelvin
 
